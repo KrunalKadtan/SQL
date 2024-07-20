@@ -20,7 +20,7 @@ create table if not exists customers (
   salesRepEmployeeNumber int(11) NULL,
   creditLimit double null default null,
   primary key (customerNumber),
-  foreign key (salesRepEmployeeNumber) references employees (employeeNumber;
+  foreign key (salesRepEmployeeNumber) references employees (employeeNumber);
 ```
 
 ```sql
